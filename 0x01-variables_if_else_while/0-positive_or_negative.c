@@ -2,18 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-
 /* betty style doc for function main goes there */
 /**
- * int main - run my code
- * @my_arg: n
- *
- * Description: This program will assign a random number to the variable n each time it is execute.
- */
-int main(void) 
+* int main - run my code
+*
+* Description: This program will assign a random number to the variable n each time it is execute.
+*/
+int main(void) // does something
 {
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
@@ -29,5 +26,5 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-	return (0);
+	return (0); //return 0
 }
