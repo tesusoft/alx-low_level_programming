@@ -7,9 +7,9 @@
 /**
  * int main - run my code
  * @my_arg: n
- * Description: This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the
- * number stored in the variable n is positive or negative.
- * */
+ *
+ * Description: This program will assign a random number to the variable n each time it is execute.
+ */
 int main(void) 
 {
 	int n;
@@ -17,15 +17,15 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if (n==0)
+	if (n == 0)
 	{
 		printf("%d is zero\n", n);
 	}
-	if (n<0)
+	if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	}
-	if (n>0)
+	if (n > 0)
 	{
 		printf("%d is positive\n", n);
 	}
