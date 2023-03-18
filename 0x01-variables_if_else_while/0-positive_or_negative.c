@@ -5,8 +5,8 @@
 /* betty style doc for function main goes there */
 /**
 * main - run my code
-* return: null
 * Description: This program will assign a random number to the variable n
+* Return: 0 or otherwise 1
 */
 int main(void)
 {
