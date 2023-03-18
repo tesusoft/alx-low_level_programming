@@ -8,7 +8,7 @@
 *
 * Description: This program will assign a random number to the variable n each time it is execute.
 */
-int main(void) // does something
+int main(void)
 {
 	int n;
 	srand(time(0));
@@ -26,5 +26,5 @@ int main(void) // does something
 	{
 		printf("%d is positive\n", n);
 	}
-	return (0); //return 0
+	return (0);
 }
