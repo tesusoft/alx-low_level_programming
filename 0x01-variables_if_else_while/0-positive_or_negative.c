@@ -4,9 +4,9 @@
 /* more headers goes there */
 /* betty style doc for function main goes there */
 /**
-* int main - run my code
+* main - run my code
 *
-* Description: This program will assign a random number to the variable n each time it is execute.
+* Description: This program will assign a random number to the variable n each time it is execute
 */
 int main(void)
 {
