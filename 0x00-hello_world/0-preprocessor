@@ -1,3 +1,2 @@
 #!/bin/bash
-export $CFIILE=main.c
-gcc -E CFILE -o c
+export $CFIILE=main.c; gcc -E $CFILE -o c
