@@ -3,7 +3,7 @@
 * Auth: Oyetesu Olumide
 *
 */
-
+#include "main.h"
 /**
 *main - Prints "_putchar" folowed by a new line.
 *
