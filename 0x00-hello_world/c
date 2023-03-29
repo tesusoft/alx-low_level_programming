@@ -731,5 +731,6 @@ extern int __overflow (FILE *, int);
 # 6 "main.c"
 int main(void)
 {
+ printf("Holberton School");
  return (0);
 }
